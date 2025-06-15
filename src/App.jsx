@@ -5,7 +5,7 @@ import './App.css'
 function App() {
 
   const [advice, setAdvice] = useState("")
-  const [adviceId, setAdviceId] = useState({})
+  const [adviceId, setAdviceId] = useState(null)
   const [loading, setLoading] = useState(false)
   const [Spin, setSpin] = useState(false)
 
